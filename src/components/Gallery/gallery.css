@@ -2,22 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 
-.bg-image {
-  width: 100%;
 
-  background-image: radial-gradient(
-      circle at right,
-      rgba(150, 173, 144, 0.4),
-      white,
-      rgba(248, 200, 168, 0.5)
-    ),
-    url("../../assets/bg-waves.png");
-
-  /*background-size: auto 100vh;*/
-
-  /*background-image : radial-gradient(circle at bottom left,,white);*/
-  /* background-repeat: repeat;*/
-}
+  
 .gallery-text {
   position: relative;
   text-align: center;
@@ -29,7 +15,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-  margin-top: -60px;
+  margin-top: 0px;
   padding-top: 3px;
   width: 90%;
   height: 200px;
@@ -80,7 +66,7 @@
   font-family: "Outfit", sans-serif; /* margin-bottom: 1px;*/
 }
 .salon-description {
-  margin-top: -15px;
+  
   font-family: "Outfit", sans-serif; /* margin-bottom: 1px;*/
 }
 .salon-card:hover {

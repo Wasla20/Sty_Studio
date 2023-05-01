@@ -25,21 +25,23 @@ const SalonGallery = (props) => {
               description={contents.description}
             ></Salons>
           ))}
+                <div className="testwidth">
+
+            <div className="booked">
+          <h2>Want to become the best salon in your area?</h2>
+          <button>Register Now!!</button>
+        </div>
+        <div className="booked">
+          <h2>Book your Appointment today in one of the best salons</h2>
+          <button>Book An Appointment</button>
+        </div>
         </div>{" "}
+        </div>
         {/*salon listing starts here*/}
-        <div className="salon-reg">
-          <h4 className="salon-reg-text">
-            Want to become the best salon in your area?
-          </h4>{" "}
-          <button className="btn-foot">Register Now!!</button>
+      
+      
         </div>
-        <div className="salon-appointment">
-          <h4 className="salon-reg-text">
-            Book your appointment today in one of the best salons{" "}
-          </h4>{" "}
-          <button className="btn-foot"> Book An Appointment</button>
-        </div>
-      </div>
+      
     </>
   );
 };
